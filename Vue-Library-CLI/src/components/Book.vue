@@ -1,0 +1,20 @@
+<template>
+  <div class="book">
+    <h3 class="card-title">{{item.title}}</h3>
+    <p class="card-text">Pages: {{item.pages}}</p>
+    <p class="card-text">Quantity: {{item.stock}}</p>
+  </div>
+</template>
+
+<script>
+import Media from "@/components/Media";
+
+export default {
+  name: "Book",
+  extends: Media,
+}
+</script>
+
+<style scoped>
+
+</style>
